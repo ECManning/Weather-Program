@@ -11,22 +11,22 @@ public class Weather_report
 		
 		int temp = cin.nextInt();
 		
-		double ans = (5*((double)temp-32))/9; 
+		double ans = (5*((double)temp-32))/9; //this is the formula for getting the temp in degrees C
 		
-		System.out.println("Welcome. Please enter your temperature in degrees F.");
+		System.out.println("Welcome. Please enter your temperature in degrees F."); //this declares what the program first says 
 		
 		
-		System.out.println("The temperature in your are is " + ans + " degrees C. Thank you very much have a nice day!");
+		System.out.println("The temperature in your are is " + ans + " degrees C. Thank you very much have a nice day!"); //this is what it says when it presents you the answer
 		
-		if(temp<=32)
+		if(temp<=32) //if the temp is this cool then
 		{
-			System.out.println("Today it is cold outside.");
+			System.out.println("Today it is cold outside."); //the system prints out this message
 		}
 		
 		
-		if(temp>=90)
+		if(temp>=90) // if it is this hot then
 		{
-			System.out.println("Today it is hot outside.");
+			System.out.println("Today it is hot outside."); //itll print out this message
 		}
 		
 		
